@@ -50,21 +50,6 @@ const directors = [
 ];
 */
 
-const movies = [
-  { id: 1, name: "Irish man", genre: "action", directorId: 11 },
-  { id: "2", name: "Gentelmen", genre: "fiction", directorId: 13 },
-  { id: "4", name: "Garry Potter", genre: "fantasy", directorId: 12 },
-  { id: "5", name: "Agents", genre: "fantasy", directorId: 11 },
-  { id: "6", name: "Guys", genre: "fantasy", directorId: 11 },
-  { id: 7, name: "Avengers", genre: "fantasy", directorId: 13 },
-];
-
-const directors = [
-  { id: 11, name: "Guy Richy", age: 51 },
-  { id: 12, name: "Stewen Spilberg", age: 43 },
-  { id: 13, name: "Silvester Stallone", age: 72 },
-];
-
 //Схема
 const MovieType = new GraphQLObjectType({
   name: "Movie",
